@@ -1,10 +1,26 @@
 # .gitignore
 
-# ignore ruff cache
-.cache/ruff
+# ignore node_modules and yarn.lock
+node_modules/
+yarn.lock
 
-# ignore ruff config
-.ruffconfig
+# ignore build artifacts
+dist/
+build/
 
-# ignore ruff log
-.rufflog
+# ignore IDE config
+.idea/
+.vscode/
+
+# ignore docker stuff
+docker-compose.yml
+docker/
+
+# ignore pyc files
+*.pyc
+
+# ignore everything in .env
+.env
+
+# ignore everything in .DS_Store
+.DS_Store
