@@ -1,26 +1,102 @@
 # .gitignore
+# ignore ruff config
+.ruffconfig
 
-# ignore node_modules and yarn.lock
+# ignore ruff cache
+.ruffcache
+
+# ignore ruff log
+.rufflog
+
+# ignore venv
+venv/
+
+# ignore node_modules
 node_modules/
-yarn.lock
 
-# ignore build artifacts
-dist/
-build/
+# ignore .DS_Store
+.DS_Store
 
-# ignore IDE config
-.idea/
+# ignore .vscode
 .vscode/
 
-# ignore docker stuff
-docker-compose.yml
-docker/
+# ignore ipython cache
+.ipynb_checkpoints
 
-# ignore pyc files
+# ignore other IDE config
+.idea/
+.c9/
+.eclipse/
+.vscode/
+
+# ignore other project files
 *.pyc
+*.egg-info
+__pycache__/
+dist/
+build/
+*.egg
+*.whl
+*.spec
+*.exe
 
-# ignore everything in .env
-.env
-
-# ignore everything in .DS_Store
+# ignore other OS files
 .DS_Store
+Thumbs.db
+ehthumbs.db
+ehthumbs.db
+*.tmp
+*.log
+*.bak
+*.swp
+*.suo
+*.ntvs*
+*.sln
+*.suo
+*.ntvs*
+*.tlog
+*.log
+*.obj
+*.exe
+*.dll
+*.lib
+*.tmp
+*.log
+*.cache
+*.pid
+*.lock
+*.tmp
+*.log
+*.cache
+*.pid
+*.lock
+
+# ignore other IDE files
+*.iml
+*.ipr
+*.iws
+*.cproject
+*.project
+*.settings
+*.classpath
+*.classpath
+*.project
+*.settings
+*.iml
+*.ipr
+*.iws
+*.cproject
+*.project
+*.settings
+*.classpath
+
+# ignore other project files
+*.pyc
+*.egg-info
+__pycache__/
+dist/
+build/
+*.egg
+*.whl
+*.spec
+*.exe
