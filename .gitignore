@@ -1,102 +1,10 @@
 # .gitignore
-# ignore ruff config
-.ruffconfig
 
 # ignore ruff cache
-.ruffcache
+.cache/ruff
 
 # ignore ruff log
-.rufflog
+.cache/ruff.log
 
-# ignore venv
-venv/
-
-# ignore node_modules
-node_modules/
-
-# ignore .DS_Store
-.DS_Store
-
-# ignore .vscode
-.vscode/
-
-# ignore ipython cache
-.ipynb_checkpoints
-
-# ignore other IDE config
-.idea/
-.c9/
-.eclipse/
-.vscode/
-
-# ignore other project files
-*.pyc
-*.egg-info
-__pycache__/
-dist/
-build/
-*.egg
-*.whl
-*.spec
-*.exe
-
-# ignore other OS files
-.DS_Store
-Thumbs.db
-ehthumbs.db
-ehthumbs.db
-*.tmp
-*.log
-*.bak
-*.swp
-*.suo
-*.ntvs*
-*.sln
-*.suo
-*.ntvs*
-*.tlog
-*.log
-*.obj
-*.exe
-*.dll
-*.lib
-*.tmp
-*.log
-*.cache
-*.pid
-*.lock
-*.tmp
-*.log
-*.cache
-*.pid
-*.lock
-
-# ignore other IDE files
-*.iml
-*.ipr
-*.iws
-*.cproject
-*.project
-*.settings
-*.classpath
-*.classpath
-*.project
-*.settings
-*.iml
-*.ipr
-*.iws
-*.cproject
-*.project
-*.settings
-*.classpath
-
-# ignore other project files
-*.pyc
-*.egg-info
-__pycache__/
-dist/
-build/
-*.egg
-*.whl
-*.spec
-*.exe
+# ignore ruff config
+ruff.toml
